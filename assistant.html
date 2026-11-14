@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Assistant | Combustion Safety Console</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/assistant.css">
+</head>
+<body>
+<canvas id="sky"></canvas>
+<div class="shell">
+ <header class="top"><h1>Combustion Safety Console</h1><div class="top-r"><nav class="tabs" aria-label="Sections"><a href="overview.html">Overview</a><a href="investigations.html">Investigations</a><a href="compare.html">Compare</a><a href="risk.html">Risk Analysis</a><a href="assistant.html" class="on" aria-current="page">AI Assistant</a></nav><button class="btn" id="demo" data-a="demo"></button></div></header>
+ <main class="win"><div class="body chat" id="view"></div></main>
+</div>
+<script src="js/models/data.js"></script>
+<script src="js/models/store.js"></script>
+<script src="js/models/records.js"></script>
+<script src="js/models/assistant.js"></script>
+<script src="js/views/helpers.js"></script>
+<script src="js/views/charts.js"></script>
+<script src="js/views/background.js"></script>
+<script src="js/views/assistant.js"></script>
+<script src="js/controllers/base.js"></script>
+<script src="js/controllers/assistant.js"></script>
+</body>
+</html>
